@@ -11,8 +11,8 @@ export default {
 
     nav: [{
         text: 'gitHub',
-        link: '/guide',
-        activeMatch: '/guide/what-is-vitepress'
+        link: 'https://github.com/xueyun-alex',
+        activeMatch: 'https://github.com/xueyun-alex'
       },
       // {
       //   text: '下拉选择框',
@@ -30,7 +30,7 @@ export default {
     sidebar: [{
         text: 'Vue的碎碎念',
         items: [{
-            text: 'vite',
+            text: 'vite脚手架',
             link: '/guide/vite'
           },
           {
@@ -45,6 +45,11 @@ export default {
             text: 'vue router',
             link: '/guide/vueRouter'
           },
+          ,
+          {
+            text: 'vue工程化',
+            link: '/guide/vueRouter'
+          },
         ],
         collapsible: true,
         collapsed: true
@@ -52,16 +57,36 @@ export default {
       {
         text: 'JavaScript的碎碎念',
         items: [{
-          text: 'js异步操作',
-          link: '/guide/index'
-        }, ],
+            text: 'js异步操作',
+            link: '/guide/index'
+          },
+          {
+            text: 'js数组常用操作',
+            link: '/guide/index'
+          }, {
+            text: 'js数据常用转换',
+            link: '/guide/index'
+          }, {
+            text: 'js常用算法',
+            link: '/guide/index'
+          },
+        ],
         collapsible: true,
         collapsed: true
       },
       {
         text: 'TypeScript的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'ts的理念',
+          link: '/guide/index'
+        }, ],
+        collapsible: true,
+        collapsed: true
+      },
+      {
+        text: 'CSS的碎碎念',
+        items: [{
+          text: 'CSS的一些代码收集',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -70,7 +95,7 @@ export default {
       {
         text: 'Cesium的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'cesium基础操作',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -79,7 +104,7 @@ export default {
       {
         text: 'Three.js的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'three做过的示例',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -88,7 +113,7 @@ export default {
       {
         text: 'ECharts的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: '做过的好看表格收藏',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -97,16 +122,20 @@ export default {
       {
         text: 'ui前端框架的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'elementUI',
           link: '/guide/index'
-        }, ],
+        }, 
+        {
+          text: 'iview',
+          link: '/guide/index'
+        }],
         collapsible: true,
         collapsed: true
       },
       {
         text: 'node.js的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'nodejs下载安装',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -115,7 +144,7 @@ export default {
       {
         text: 'c#的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'c#基础',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -124,7 +153,7 @@ export default {
       {
         text: '小程序的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: '小程序基础',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -133,7 +162,7 @@ export default {
       {
         text: '其他杂七杂八的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: 'git相关',
           link: '/guide/index'
         }, ],
         collapsible: true,
@@ -142,7 +171,7 @@ export default {
       {
         text: '这次是真的碎碎念',
         items: [{
-          text: 'js异步操作',
+          text: '为啥走上编程之路',
           link: '/guide/index'
         }, ],
         collapsible: true,

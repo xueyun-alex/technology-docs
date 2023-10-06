@@ -31,7 +31,7 @@ export default {
         text: 'Vue的碎碎念',
         items: [{
             text: 'vite脚手架',
-            link: '/guide/vite'
+            link: '/guide/vue/vite'
           },
           {
             text: 'vue3 Composition API',

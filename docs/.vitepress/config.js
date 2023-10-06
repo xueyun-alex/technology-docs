@@ -57,6 +57,20 @@ export default {
             text: 'vue实现token用户登录',
             link: '/guide/vue/vue实现token用户登录-'
           },
+          {
+            text: '那些年vue踩过的那些坑',
+            link: '/guide/vue/那些年vue踩过的那些坑'
+          },
+        ],
+        collapsible: true,
+        collapsed: true
+      },
+      {
+        text: 'React的碎碎念',
+        items: [{
+            text: 'React脚手架搭建',
+            link: '/guide/react/react脚手架'
+          },
         ],
         collapsible: true,
         collapsed: true
@@ -74,8 +88,11 @@ export default {
             text: 'js数据常用转换',
             link: '/guide/敬请期待'
           }, {
-            text: 'js常用算法',
-            link: '/guide/敬请期待'
+            text: 'js的一些算法收集',
+            link: '/guide/JavaScript/js的一些算法搜集'
+          }, {
+            text: '深拷贝',
+            link: '/guide/JavaScript/深拷贝-'
           },
         ],
         collapsible: true,
@@ -106,8 +123,9 @@ export default {
           },
           {
             text: 'CSS的一些代码收集',
-            link: '/guide/敬请期待'
+            link: '/guide/css/css的一些代码收集'
           },
+          
         ],
         collapsible: true,
         collapsed: true
@@ -193,6 +211,10 @@ export default {
           {
             text: '状态管理',
             link: '/guide/others/状态管理-'
+          },
+          {
+            text: '前端WebSocket详解',
+            link: '/guide/others/WebSocket详解-'
           },
         ],
         collapsible: true,

@@ -35,20 +35,27 @@ export default {
           },
           {
             text: 'vue3 Composition API',
-            link: '/guide/compositionAPI'
+            link: '/guide/vue/compositionAPI'
           },
           {
             text: 'vuex',
-            link: '/guide/vuex'
+            link: '/guide/vue/vuex'
           },
           {
             text: 'vue router',
-            link: '/guide/vueRouter'
+            link: '/guide/敬请期待'
           },
-          ,
           {
             text: 'vue工程化',
-            link: '/guide/vueRouter'
+            link: '/guide/vue/vue工程化-'
+          },
+          {
+            text: 'Vite配置代理Proxy',
+            link: '/guide/vue/Vite配置代理Proxy-'
+          },
+          {
+            text: 'vue实现token用户登录',
+            link: '/guide/vue/vue实现token用户登录-'
           },
         ],
         collapsible: true,
@@ -58,17 +65,17 @@ export default {
         text: 'JavaScript的碎碎念',
         items: [{
             text: 'js异步操作',
-            link: '/guide/index'
+            link: '/guide/JavaScript/js异步操作'
           },
           {
             text: 'js数组常用操作',
-            link: '/guide/index'
+            link: '/guide/JavaScript/js数组常用方法-'
           }, {
             text: 'js数据常用转换',
-            link: '/guide/index'
+            link: '/guide/敬请期待'
           }, {
             text: 'js常用算法',
-            link: '/guide/index'
+            link: '/guide/敬请期待'
           },
         ],
         collapsible: true,
@@ -78,7 +85,7 @@ export default {
         text: 'TypeScript的碎碎念',
         items: [{
           text: 'ts的理念',
-          link: '/guide/index'
+          link: '/guide/typescript/ts的理念-'
         }, ],
         collapsible: true,
         collapsed: true
@@ -86,9 +93,22 @@ export default {
       {
         text: 'CSS的碎碎念',
         items: [{
-          text: 'CSS的一些代码收集',
-          link: '/guide/index'
-        }, ],
+            text: 'css缩放（不同屏幕适配）',
+            link: '/guide/css/css缩放（不同屏幕适配）-'
+          },
+          {
+            text: 'css引入',
+            link: '/guide/css/css引入-'
+          },
+          {
+            text: '子元素选择器',
+            link: '/guide/css/子元素选择器-'
+          },
+          {
+            text: 'CSS的一些代码收集',
+            link: '/guide/敬请期待'
+          },
+        ],
         collapsible: true,
         collapsed: true
       },
@@ -96,7 +116,7 @@ export default {
         text: 'Cesium的碎碎念',
         items: [{
           text: 'cesium基础操作',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -105,7 +125,7 @@ export default {
         text: 'Three.js的碎碎念',
         items: [{
           text: 'three做过的示例',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -114,7 +134,7 @@ export default {
         text: 'ECharts的碎碎念',
         items: [{
           text: '做过的好看表格收藏',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -122,13 +142,14 @@ export default {
       {
         text: 'ui前端框架的碎碎念',
         items: [{
-          text: 'elementUI',
-          link: '/guide/index'
-        }, 
-        {
-          text: 'iview',
-          link: '/guide/index'
-        }],
+            text: 'elementUI',
+            link: '/guide/敬请期待'
+          },
+          {
+            text: 'iview',
+            link: '/guide/敬请期待'
+          }
+        ],
         collapsible: true,
         collapsed: true
       },
@@ -136,7 +157,7 @@ export default {
         text: 'node.js的碎碎念',
         items: [{
           text: 'nodejs下载安装',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -145,7 +166,7 @@ export default {
         text: 'c#的碎碎念',
         items: [{
           text: 'c#基础',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -154,7 +175,7 @@ export default {
         text: '小程序的碎碎念',
         items: [{
           text: '小程序基础',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
@@ -162,9 +183,18 @@ export default {
       {
         text: '其他杂七杂八的碎碎念',
         items: [{
-          text: 'git相关',
-          link: '/guide/index'
-        }, ],
+            text: 'ajax与axios',
+            link: '/guide/others/ajax'
+          },
+          {
+            text: 'git相关',
+            link: '/guide/敬请期待'
+          },
+          {
+            text: '状态管理',
+            link: '/guide/others/状态管理-'
+          },
+        ],
         collapsible: true,
         collapsed: true
       },
@@ -172,7 +202,7 @@ export default {
         text: '这次是真的碎碎念',
         items: [{
           text: '为啥走上编程之路',
-          link: '/guide/index'
+          link: '/guide/敬请期待'
         }, ],
         collapsible: true,
         collapsed: true
